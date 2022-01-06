@@ -5,7 +5,7 @@ from pypresence import Presence
 # For each of the presets, type the number for which preset you want when running the script
 
 
-def preset_2(controller: Presence):
+def preset_1(controller: Presence):
     controller.update(
         state="", # This will be displayed on the third line underneath your application name. The user's current status.
         details="", # This will be displayed on the second line underneath your application name. What the user is currently doing.
