@@ -75,6 +75,7 @@ def preset_3(controller: Presence):
 
 
 controller = Presence("0123456789012345678") # <- PASTE CLIENT ID HERE
+controller.connect()
 while True:
     try:
         try:
